@@ -28,8 +28,8 @@ simulations:
     type: localization
     simulator:
       deployment:
-      type: container
-      artifact: main
+        type: container
+        artifact: main
     runtime:
       type: standard1/amd64/large
 

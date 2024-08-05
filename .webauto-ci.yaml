@@ -30,8 +30,8 @@ simulations:
       deployment:
         type: container
         artifact: main
-    runtime:
-      type: standard1/amd64/large
+      runtime:
+        type: standard1/amd64/large
 
 release:
   components:

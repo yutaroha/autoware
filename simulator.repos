@@ -1,8 +1,4 @@
 repositories:
-  simulator/scenario_simulator:
-    type: git
-    url: https://github.com/tier4/scenario_simulator_v2.git
-    version: RJD-736/autoware_msgs_support  # TODO(mitsudome-r): switch back to master once this branch is merged
   simulator/driving_log_replayer:
     type: git
     url: https://github.com/tier4/driving_log_replayer.git
@@ -19,3 +15,7 @@ repositories:
     type: git
     url: https://gitlab.com/autowarefoundation/operational-design-domains
     version: 42321f9a04fcaef9caf3694530e1c63d3e27c47a
+  simulator/scenario_simulator:
+    type: git
+    url: https://github.com/tier4/scenario_simulator_v2.git
+    version: RJD-736/autoware_msgs_support  # TODO(mitsudome-r): switch back to master once this branch is merged
